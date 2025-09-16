@@ -67,7 +67,7 @@ body {
 }
 
 .progress-bar {
-    position: 0;
+    position: relative;
     right: 0;
     height: 30px;
     border: var(--border);

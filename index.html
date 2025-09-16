@@ -8,7 +8,7 @@
     <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
      <link href="http://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
+    <title>Intro-Week</title>
 </head>
 <body>
     
@@ -16,26 +16,11 @@
         <h2 class="heading">Ваш прогресс</h2>
         <div class="progress">
             <div class="progress-bar">
-                <div class="progress-value"></div>
+                <div class="progress-value" id="progress"></div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="card">
-                <h3>HTML</h3>
-            </div>
-            <div class="card">
-                <h3>CSS</h3>
-            </div>
-            <div class="card">
-                <h3>JavaScript</h3>
-            </div>
-            <div class="card">
-                <h3>Git</h3>
-            </div>
-            <div class="card">
-                <h3>React</h3>
-            </div>
+        <div class="row" id="content"></div> 
         </div>
 
         <form class="form">
@@ -52,7 +37,7 @@
         </form>
     </div>
 
-    <div class="modal">
+    <div class="modal" id="modal">
         <h2>JavaScript</h2>
         <p>Lorem Ipsum — это просто текст-заглушка, используемый в полиграфии и наборе. Lorem Ipsum стал стандартным текстом-заглушкой в ​​этой отрасли ещё в XVI веке, когда неизвестный печатник взял набор шрифтов и перетасовал их, чтобы создать книгу образцов. Он пережил не только пять веков, но и переход к электронному набору, практически не изменившись. Он получил распространение в 1960-х годах с выпуском листов Letraset, содержащих фрагменты Lorem Ipsum, а позднее — с появлением программного обеспечения для настольных издательских систем, таких как Aldus PageMaker, включающего версии Lorem Ipsum.</p>
         <hr>
@@ -61,7 +46,9 @@
             <label for="done">Выучил</label>
         </div>
     </div>
-    <div class="modal-backdrop"></div>
+    <div class="modal-backdrop" id="backdrop"></div>
+
+      <script src="./app.js"></script>
 
 </body>
 </html>
