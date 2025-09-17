@@ -166,8 +166,8 @@ body {
     background: #fff;
 }
 
-.form-control input:invalid,
-.form-control textarea:invalid {
+.form-control input.invalid,
+.form-control textarea.invalid {
     animation: validate 2s;
 }
 
